@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Seguros de vida personalizados con asesoría experta. Brindamos protección y tranquilidad para cada etapa de tu vida.">
+  <meta name="author" content="Seguros de Vida Lafise">
+  <link rel="canonical" href="https://laficelelinea.vercel.app/">
+  <title>Seguros de Vida Lafise</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background-color: #028809;
+      color: #1f1f1f;
+    }
+    header, footer {
+      background-color: #028809;
+      padding: 1rem 2rem;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      flex-wrap: wrap;
+    }
+    header img {
+      height: 24px;
+      margin-right: 8px;
+    }
+    nav a {
+      margin: 0 12px;
+      text-decoration: none;
+      color: #ffffff;
+      font-weight: bold;
+    }
+    .social-icons a {
+      color: #028809;
+      margin: 0 8px;
+      font-size: 1.2rem;
+      text-decoration: none;
+    }
+    section {
+      padding: 2rem;
+      max-width: 1200px;
+      margin: auto;
+    }
+    .hero {
+      background-color: #ffffff;
+      padding: 4rem 2rem;
+      text-align: center;
+      border-radius: 10px;
+    }
+    .hero h1 {
+      font-size: 2.5rem;
+      color: #028809;
+    }
+    .hero p {
+      font-size: 1.2rem;
+      margin: 1rem 0 2rem;
+    }
+    .hero-buttons button {
+      margin: 0.5rem;
+      padding: 0.8rem 1.5rem;
+      border-radius: 10px;
+      border: none;
+      cursor: pointer;
+      font-size: 1rem;
+    }
+    .primary {
+      background-color: #028809;
+      color: white;
+    }
+    .secondary {
+      border: 2px solid #028809;
+      color: #028809;
+      background: none;
+    }
+    .gallery, .image-row {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 1rem;
+      justify-content: center;
+      margin-top: 2rem;
+    }
+    .gallery img, .image-row img {
+      width: 300px;
+      border-radius: 10px;
+      transition: transform 0.3s ease-in-out;
+    }
+    .gallery img:hover, .image-row img:hover {
+      transform: scale(1.05);
+    }
+    .grid-section {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 1.5rem;
+      margin-top: 2rem;
+    }
+    .grid-section div {
+      background-color: #ffffff;
+      padding: 1rem;
+      border-radius: 8px;
+      transition: transform 0.3s ease-in-out;
+    }
+    .grid-section div:hover {
+      transform: scale(1.05);
+    }
+    .cta-section {
+      background-color: #ffffff;
+      text-align: center;
+      padding: 3rem 2rem;
+      margin-top: 2rem;
+      border-radius: 10px;
+      transition: transform 0.3s ease-in-out;
+    }
+    .cta-section:hover {
+      transform: scale(1.02);
+    }
+    .cta-section h2 {
+      margin-bottom: 1rem;
+    }
+    .cta-section button {
+      padding: 1rem 2rem;
+      border-radius: 25px;
+      border: none;
+      background-color: #028809;
+      color: white;
+      font-size: 1rem;
+      cursor: pointer;
+    }
+    form {
+      display: flex;
+      flex-direction: column;
+      gap: 1rem;
+      max-width: 500px;
+      margin: auto;
+    }
+    form input, form textarea {
+      padding: 0.8rem;
+      border-radius: 5px;
+      border: 1px solid #ccc;
+    }
+    form button {
+      background-color: #00be7f;
+      color: white;
+      padding: 0.8rem;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+    .testimonio {
+      background-color: #ffffff;
+      border-radius: 10px;
+      padding: 1.5rem;
+      margin: 1rem;
+      transition: transform 0.3s ease-in-out;
+    }
+    .testimonio:hover {
+      transform: scale(1.03);
+    }
+    .footer-heart {
+      font-size: 1.2rem;
+      color: #028809;
+      margin-right: 6px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1><a href="index.html" style="color: #fcfcfc; text-decoration: none; display: inline-block;"><span>🏥</span> SEGUROS DE VIDA LAFISE</a></h1>
+    <nav>
+      <a href="contacto.html">Contacto</a>
+      <a href="faq.html">FAQ</a>
+      <a href="servicios.html">Servicios</a>
+      <a href="sobre.html">Sobre</a>
+      <a href="testimonios.html">Testimonios</a>
+      <a href="politicas de privacidad.html">politicas de privacidad</a>
+    </nav>
+    <div class="social-icons">
+      <a href="https://instagram.com" target="_blank"><i class="fab fa-instagram"></i></a>
+      <a href="https://facebook.com" target="_blank"><i class="fab fa-facebook"></i></a>
+      <a href="https://x.com" target="_blank"><i class="fab fa-x-twitter"></i></a>
+    </div>
+  </header>
+
+  <section class="hero">
+    <h1>Lafise asegurando tu bienestar y el de tu familia</h1>
+    <p>LAFISE ofrece asesoría experta y planes de seguros personalizados que brindan protección y tranquilidad para cada etapa de tu vida</p>
+    <div class="hero-buttons">
+      <a href="cotizar.html"><button class="primary">Cotiza tu seguro Lafise</button></a>
+      <div class="button-container">
+  <a href="asesor.html">
+    <button>Hablar con un asesor Lafise</button>
+  </a>
+</div>
+
+  </section>
+
+  <section class="gallery">
+    <img src="https://hadithoftheday.com/wp-content/uploads/2012/08/dua_DuasAskingforStrengthandProtection1.jpg" alt="Imagen 1">
+    <img src="https://i.pinimg.com/736x/85/6e/44/856e44b94eed022d50af1342f6a328ac.jpg" alt="Imagen 2">
+    <img src="https://i.pinimg.com/736x/3e/be/2e/3ebe2e80a2d0edee3ab455049dce8926.jpg" alt="Imagen 3">
+  </section>
+
+  <section class="grid-section">
+    <div><strong>LAFISE Beneficio 1</strong><p>Lafise tranquilidad financiera para tu familia.
+Protege a tus seres queridos con un respaldo económico en los momentos más importantes.</p></div>
+    <div><strong>LAFISE Beneficio 2</strong><p>Lafise asesoría personalizada.
+Recibe atención experta adaptada a tus necesidades y etapa de vida.</p></div>
+    <div><strong>LAFISE Beneficio 3</strong><p>Lafise cobertura flexible y ajustable.
+Adapta tu plan de seguro según cambien tus necesidades o las de tu familia.</p></div>
+    <div><strong>LAFISE Beneficio 4</strong><p>Lafise atención rápida y soporte constante.
+Nuestro equipo está disponible para resolver tus dudas en cada paso.</p></div>
+  </section>
+
+  <section class="cta-section">
+    <h2>¿Listo para asegurar tu futuro Lafise?</h2>
+    <p>Descubre cómo nuestros planes personalizados de seguros de vida lafise pueden brindarte seguridad y tranquilidad. Contáctanos hoy para una asesoría gratuita y da el primer paso hacia un mañana protegido.</p>
+    <a href="solicitar.html"><button>Solicitar asesoría Lafise</button></a>
+  </section>
+
+  <section id="contacto">
+    <h2>Contáctanos Lafise</h2>
+    <form id="contactForm" onsubmit="return handleSubmit(event)">
+  <input type="text" placeholder="Tu nombre" required>
+  <input type="email" placeholder="Tu correo" required>
+  <textarea placeholder="Escribe tu mensaje..." required></textarea>
+  <br><br>
+  <button type="submit" id="submitBtn">LAFISE - Enviar</button>
+</form>
+<div class="confirmation" id="confirmationMessage">
+  
+</div>
+
+  <section id="testimonios">
+  <h2>Testimonios Lafise</h2>
+
+  <div class="testimonio">
+    <div style="display: flex; align-items: center; gap: 1rem;">
+      <img src="https://randomuser.me/api/portraits/women/44.jpg" alt="María López" style="width: 50px; height: 50px; border-radius: 50%;">
+      <p><strong>María López</strong></p>
+    </div>
+    <p>Gracias al asesoramiento personalizado de Lafise, encontré el plan perfecto para mi familia.</p>
+  </div>
+
+  <div class="testimonio">
+    <div style="display: flex; align-items: center; gap: 1rem;">
+      <img src="https://randomuser.me/api/portraits/men/35.jpg" alt="Carlos Hernández" style="width: 50px; height: 50px; border-radius: 50%;">
+      <p><strong>Carlos Hernández</strong></p>
+    </div>
+    <p>El servicio de Lafise fue impecable, me sentí seguro y bien informado durante todo el proceso.</p>
+  </div>
+
+  <div class="testimonio">
+    <div style="display: flex; align-items: center; gap: 1rem;">
+      <img src="https://randomuser.me/api/portraits/women/68.jpg" alt="Laura Torres" style="width: 50px; height: 50px; border-radius: 50%;">
+      <p><strong>Laura Torres</strong></p>
+    </div>
+    <p>Me encanta cómo personalizaron mi seguro Lafise. Me siento protegida y tranquila.</p>
+  </div>
+
+  <div class="testimonio">
+    <div style="display: flex; align-items: center; gap: 1rem;">
+      <img src="https://randomuser.me/api/portraits/men/22.jpg" alt="Jorge Ramírez" style="width: 50px; height: 50px; border-radius: 50%;">
+      <p><strong>Jorge Ramírez</strong></p>
+    </div>
+    <p>Lafise es un equipo profesional y muy atento. Lo recomiendo totalmente.</p>
+  </div>
+
+</section>
+
+
+  <footer>
+    <p><a href="index.html" style="color: white; text-decoration: none;"><span>🏥</span> SEGUROS DE VIDA LAFISE</a></p>
+    <div class="social-icons">
+      <a href="https://instagram.com" target="_blank"><i class="fab fa-instagram"></i></a>
+      <a href="https://facebook.com" target="_blank"><i class="fab fa-facebook"></i></a>
+      <a href="https://x.com" target="_blank"><i class="fab fa-x-twitter"></i></a>
+    </div>
+  <footer>
+  <p><a href="politicas de privacidad.html"><span>🏥</span></a></p>
+  <p><a href="politicas de privacidad.html">Política de Privacidad Lafise</a></p>
+</footer>
+
+</body>
+</html>
